@@ -1,0 +1,19 @@
+{
+  "name": "mysite",
+  "version": "1.0.0",
+  "description": "my website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oninini/mysite.git"
+  },
+  "author": "liv",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oninini/mysite/issues"
+  },
+  "homepage": "https://github.com/oninini/mysite#readme"
+}
