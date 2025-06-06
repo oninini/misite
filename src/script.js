@@ -6,3 +6,9 @@ window.addEventListener("scroll", function () {
     document.body.classList.remove("scrolled"); 
   }
 });
+
+function handleClick(ditto) {
+  alert(`You clicked on ${ditto}!`);
+}
+
+
