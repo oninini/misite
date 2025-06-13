@@ -11,4 +11,3 @@ function handleClick(ditto) {
   alert(`You clicked on ${ditto}!`);
 }
 
-

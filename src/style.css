@@ -515,3 +515,33 @@ body {
   left: 15%;
 }
 
+.image-container {
+  position: absolute;
+  top: 60%;       /* push down from 50% to 60% */
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 300px;
+}
+
+.image-container img {
+  width: 100%;
+  height: auto;
+  display: block;
+  transition: opacity 0.6s ease-in-out; 
+}
+
+.image-container .gif {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  pointer-events: none; 
+}
+
+.image-container:hover .gif {
+  opacity: 1;
+}
+
+.image-container:hover .png {
+  opacity: 0;
+}
